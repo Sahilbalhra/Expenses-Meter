@@ -1,0 +1,54 @@
+.body {
+    margin: 20px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .form {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    height: 200px;
+    width: auto;
+    background-color: rgb(0, 0, 163);
+    text-align: center;
+    justify-content: center;
+  }
+  /* for dynamic classes */
+  .div.invalid input{
+    border-Color:red;
+  }
+  .div.invalid label{
+    color:red;
+  }
+  .divbtn{
+    padding-top: 90px;
+  }
+  .div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+  }
+  .title input {
+    height: 25px;
+    border-radius: 11px;
+    padding: 1px;
+    margin: 10px;
+  }
+  button{
+      height: 28px;
+      margin: 33px;
+      width: 125px;
+      border-radius: 11px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+  
+  

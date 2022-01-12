@@ -1,0 +1,20 @@
+.expensefilter{
+    height: 38px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(248, 193, 122);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .expensefilter p{
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .expensefilter select{
+        border-radius: 30px;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 15px;
+    }
